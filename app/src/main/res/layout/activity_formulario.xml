@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView android:text="Cadastro de Bancos"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <EditText
+        android:id="@+id/nome_banco"
+        android:hint="Banco Exemplo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <EditText
+        android:id="@+id/endereco_banco"
+        android:hint="Rua Amador Bueno 381, Santo Amaro, Sao Paulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <TextView android:text="Como você avaliaria este banco"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <RatingBar
+        android:id="@+id/nota_banco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:layout_gravity="center"
+        android:max="10" />
+
+    <Button
+        android:id="@+id/formulario_salvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:text="Sua opnião é importante"
+        android:textColor="#000000" />
+
+
+</LinearLayout>
